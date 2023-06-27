@@ -37,10 +37,6 @@ def process_video_with_csv(video_file, csv_file, output_file):
                     
             video_writer.write(frame)
 
-            # Display the resulting frame (for testing purposes)
-            #cv2.imshow('Video with Word Overlay', frame)
-            #if cv2.waitKey(25) & 0xFF == ord('q'):
-                #break
 
     video_capture.release()
     video_writer.release()
